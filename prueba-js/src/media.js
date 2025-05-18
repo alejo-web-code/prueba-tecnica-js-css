@@ -7,7 +7,7 @@ export default (json) => {
     }
 
     const sumaEdad = json.reduce((total, usuario) => {
-      if (typeof usuario.edad !== 'number') {
+      if (typeof usuario.edad !== 'number' || usuario.edad === 0) {
         throw new Error("El valor de la edad no es válida");
       }
       return total + usuario.edad;
