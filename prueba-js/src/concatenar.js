@@ -22,6 +22,12 @@ export default (json) => {
   });
 };
 
+/**
+ * Capitaliza cada palabra en una cadena de texto.
+ *
+ * @param {string} data - Texto a capitalizar.
+ * @returns {string} Texto capitalizado; si no hay data, retorna cadena vacía.
+ */
 function capitalizar (data) {
   return data
     ? data

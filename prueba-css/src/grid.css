@@ -24,7 +24,7 @@ div:nth-of-type(3) {
 }
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 780px) {
   #app {
     display: grid;
     grid-template-columns: 1.5fr 0.5fr 0.5fr;
