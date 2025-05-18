@@ -13,7 +13,7 @@ body {
 }
 
 #app {
-  padding: 2rem;
+  padding: 2rem 0;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -133,6 +133,10 @@ div:nth-of-type(4) {
 
 /* Desktop */
 @media screen and (min-width: 780px) {
+  #app {
+    padding: 2rem;
+  }
+
   h1 {
     font-size: 4rem;
   }
